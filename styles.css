@@ -1,7 +1,7 @@
 /* Corpo da página com fundo natalino */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('Img/R.jpg'); /* Caminho para a imagem */
+    background-image: url('R.jpg'); /* Caminho para a imagem */
     background-size: cover;  /* Faz a imagem cobrir toda a tela */
     background-position: center; /* Centraliza a imagem */
     text-align: center;
