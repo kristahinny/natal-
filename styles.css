@@ -1,0 +1,99 @@
+/* Corpo da página com fundo natalino */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Img/R.jpg'); /* Caminho para a imagem */
+    background-size: cover;  /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #D3D3D3; /* Cor do texto em cinza claro */
+}
+
+/* Estilo do título (h1) */
+h1 {
+    color: darkcyan;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+/* Estilo do parágrafo */
+p {
+    font-size: 18px;
+    color: #ffffff;  /* Texto do parágrafo em branco */
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+/* Estilo do botão */
+button {
+    background-color: darkcyan;
+    color: brown;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Efeito quando o mouse passar sobre o botão */
+button:hover {
+    background-color: #008b8b;
+}
+
+/* Estilo da foto quando aparece */
+#foto {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+/* Estilo da imagem */
+#foto img {
+    border-radius: 10px;
+    border: 5px solid darkcyan;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 100%;  /* Garante que a imagem seja redimensionada no celular */
+    height: auto;  /* Mantém a proporção da imagem */
+}
+
+/* Media Query para dispositivos móveis */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    #foto img {
+        width: 100%;  /* A imagem vai ocupar toda a largura disponível */
+    }
+}
+
+/* Media Query para celulares muito pequenos */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    #foto img {
+        width: 100%;  /* A imagem vai ocupar toda a largura disponível */
+    }
+}
